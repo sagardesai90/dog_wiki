@@ -11,3 +11,17 @@
 .thumbnail {
   display: inline-grid;
 }
+
+@media only screen and (max-width: 600px) {
+  .thumbnail-grid-parent {
+    display: inline;
+    text-align: center;
+    width: 80%;
+  }
+
+  .thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+}
