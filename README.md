@@ -10,4 +10,4 @@ The first endpoints was used to retrieve the categories of breeds while the seco
 
 There are two essential components I used to create this app. Search.js is where I store the state, take care of local storage, handle user input, and pass on props to SearchRes.js, which is used to show the results.
 
-To run the application, clone the repo and run npm install followed by npm run start.
+To run the application, clone the repo and run `npm install` followed by `npm run start`.
